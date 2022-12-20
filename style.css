@@ -1,0 +1,264 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;    
+}
+
+
+.item-1 img {
+    height: 40px;
+    width: 40px;
+    
+   
+    }
+
+.item-1 {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.search {
+    display: flex;
+    
+    align-items: center;
+
+    width: 44vw;
+}
+
+.search input {
+    margin-left: 30px;
+    width: 33vw;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #e2e8f0;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 100px;
+    justify-content: space-around;
+   
+}
+.icons img {
+    height: 40px;
+    width: 40px;
+}
+
+.item-2 {
+    display: flex;
+    align-items: center;
+    
+}
+.item-2 img {
+    height: 80px;
+    width: 70px;
+    text-align: center;
+    margin-right: 18px;
+}
+
+.intro {
+    width: 44vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.links {
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+  
+    margin-left: auto;
+}
+
+.links button {
+    margin-right: 30px;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+    background-color: #2563eb;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.dashboard img {
+    margin-right: 10px;
+}
+
+.items1 div {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+
+.items1 {
+    padding-left: 10px;
+    padding-top: 25px;
+   
+}
+.items2 {
+    padding-left: 10px;
+    padding-top: 35px;
+} 
+.items2 div {
+   display: flex;
+   align-items: center;
+   column-gap: 18px;
+}
+
+.projects {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+}
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+   
+   
+    background-color: #0ea5e9;
+    /* position: fixed; */
+}
+.items1 > div, .items2 > div {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+
+}
+.second-column {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    border-bottom: 2px solid  white;
+    padding-left: 20px;
+   
+}
+
+.projects {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.project-items {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.announcements, .trending {
+    grid-column: 2 / 3;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+.headers {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+}
+
+#announcement {
+    margin-right: 95px;
+}
+
+.projects {
+    background-color: #e2e8f0;
+    padding-left: 20px; 
+   
+    
+}
+.headers h1 {
+    padding-left: 10px; 
+}
+.second-column {
+   
+    width: max-content;
+   
+    
+  
+   
+}
+
+.project-items > div{
+    background-color: white;
+    border: 1px solid white;
+    height:300px;
+    width: 420px;
+    margin-left: 15px; 
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-left: 8px solid orange;
+    position: relative;
+ 
+}
+
+#svg-icons {
+    
+   
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    row-gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+   
+}
+
+.announcement-items > div {
+    background-color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    width: 350px;
+    margin-left: 35px;
+    padding-left: 10px;
+    
+}
+
+.trending {
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 360px;
+    
+}
+.trending-section > div {
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid white;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  
+   
+}
+.headers h1 {
+    padding-right: 20px;
+}
+
